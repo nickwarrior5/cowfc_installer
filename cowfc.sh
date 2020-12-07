@@ -1,6 +1,6 @@
 #!/bin/bash
 DISCONTINUED="true"
-if [ $DISCONTINUED="true" ] ; then
+if [ $DISCONTINUED="false" ] ; then
 	echo "Sorry, but this script has been discontinued. Please use the installer at https://github.com/EnergyCube/cowfc_installer instead."
 	exit 1
 fi
