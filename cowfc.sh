@@ -1,5 +1,4 @@
 #!/bin/bash
-fi
 echo "##### WARNING!!!!! ##### - Recently, Wiimmfi has undergone some changes which makes it so that their servers are more secure from hackers."
 echo "Having said that, this means that the CoWFC fork will not be getting the security patch, as it is unclear how it is possible. For the time being, you accept that you run your own server with a chance that hackers will be able to execute code over the MKW network."
 echo "This might mean that hackers can in theory, brick consoles. Pressing ENTER will confirm that you accept the risks."
@@ -58,7 +57,7 @@ mod1="proxy" # This is a proxy mod that is dependent on the other 2
 mod2="proxy_http" # This is related to mod1
 mod3="php7.1"
 UPDATE_FILE="$0.tmp"
-UPDATE_BASE="https://raw.githubusercontent.com/kyle95wm/cowfc_installer/master/cowfc.sh"
+UPDATE_BASE="https://raw.githubusercontent.com/nickwarrior5/cowfc_installer/master/cowfc.sh"
 # Functions
 
 function update {
