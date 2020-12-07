@@ -1,8 +1,4 @@
 #!/bin/bash
-DISCONTINUED="false"
-if [ $DISCONTINUED="true" ] ; then
-	echo "Sorry, but this script has been discontinued. Please use the installer at https://github.com/EnergyCube/cowfc_installer instead."
-	exit 1
 fi
 echo "##### WARNING!!!!! ##### - Recently, Wiimmfi has undergone some changes which makes it so that their servers are more secure from hackers."
 echo "Having said that, this means that the CoWFC fork will not be getting the security patch, as it is unclear how it is possible. For the time being, you accept that you run your own server with a chance that hackers will be able to execute code over the MKW network."
